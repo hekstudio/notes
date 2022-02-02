@@ -49,8 +49,16 @@ Restart network
 sudo /etc/init.d/networking restart
 ```
 
-Given file path/location user permission
+##### Given file path/location user permission
 
 ```shell
 sudo chown -R $(whoami) /Your/File/Path
+```
+
+##### hash some text/string
+
+openssl is required
+
+```shell
+echo "Text to hash" | openssl dgst -sha256
 ```
