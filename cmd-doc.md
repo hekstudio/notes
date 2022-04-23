@@ -62,3 +62,11 @@ openssl is required
 ```shell
 echo "Text to hash" | openssl dgst -sha256
 ```
+
+
+##### Connect to IPSec vpnc
+
+```shell
+sudo apt install vpnc
+sudo vpnc
+```
